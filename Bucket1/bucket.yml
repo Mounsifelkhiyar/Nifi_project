@@ -1,5 +1,5 @@
 flows:
-  83f443e6-d8a6-445f-a373-10b76f8dec64: {ver: 1, file: flow1.snapshot, comments: '',
-    author: anonymous, created: 1672325750639, flowName: flow1, flowDesc: ''}
+  83f443e6-d8a6-445f-a373-10b76f8dec64: {ver: 2, file: flow1.snapshot, comments: '',
+    author: anonymous, created: 1672388382977, flowName: flow1, flowDesc: ''}
 layoutVer: 1
 bucketId: bcf6171a-6ce4-4c41-bd34-dc510ecd0aa2

@@ -49,39 +49,6 @@
           "destination" : {
             "comments" : "",
             "groupId" : "7bf94981-ec17-3b52-8ade-d8ff4d822759",
-            "id" : "a79cd3d2-5da8-38d8-8501-dfe0798c6a68",
-            "instanceIdentifier" : "4b1eaddf-0185-1000-1aa9-ead1d5ebfc85",
-            "name" : "ConvertExcelToCSVProcessor",
-            "type" : "PROCESSOR"
-          },
-          "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "7bf94981-ec17-3b52-8ade-d8ff4d822759",
-          "identifier" : "05103987-1e8d-3a4d-b64d-0a64aba3aa11",
-          "instanceIdentifier" : "56284ccf-0185-1000-1af2-d355d305db59",
-          "labelIndex" : 1,
-          "loadBalanceCompression" : "DO_NOT_COMPRESS",
-          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-          "name" : "",
-          "partitioningAttribute" : "",
-          "prioritizers" : [ ],
-          "selectedRelationships" : [ "success" ],
-          "source" : {
-            "comments" : "",
-            "groupId" : "7bf94981-ec17-3b52-8ade-d8ff4d822759",
-            "id" : "b0128a5c-7f07-3f32-9e1a-89a54d2694a5",
-            "instanceIdentifier" : "55e1142f-0185-1000-b9a1-cb7321592edb",
-            "name" : "FetchFile",
-            "type" : "PROCESSOR"
-          },
-          "zIndex" : 0
-        }, {
-          "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
-          "bends" : [ ],
-          "componentType" : "CONNECTION",
-          "destination" : {
-            "comments" : "",
-            "groupId" : "7bf94981-ec17-3b52-8ade-d8ff4d822759",
             "id" : "3b7d503d-2d70-34a8-8be3-1b07030a38ec",
             "instanceIdentifier" : "01851000-addf-1b1e-0b99-77784fa1e3c4",
             "name" : "ConvertExcelToCSVProcessor",
@@ -104,39 +71,6 @@
             "id" : "cc5559aa-cc64-39b9-b2fc-55b2d23418bf",
             "instanceIdentifier" : "01851004-142f-15e1-5247-ec5db428fa74",
             "name" : "MergeContent",
-            "type" : "PROCESSOR"
-          },
-          "zIndex" : 0
-        }, {
-          "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
-          "bends" : [ ],
-          "componentType" : "CONNECTION",
-          "destination" : {
-            "comments" : "",
-            "groupId" : "7bf94981-ec17-3b52-8ade-d8ff4d822759",
-            "id" : "211ca735-3082-3102-95ec-b4372307ab63",
-            "instanceIdentifier" : "0185100f-c8f5-15df-fc97-0b21a40b4ff9",
-            "name" : "ReplaceText",
-            "type" : "PROCESSOR"
-          },
-          "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "7bf94981-ec17-3b52-8ade-d8ff4d822759",
-          "identifier" : "363638fb-3494-34b6-9b71-0c65f7612336",
-          "instanceIdentifier" : "5e5fa552-0185-1000-4172-7024e23cffee",
-          "labelIndex" : 1,
-          "loadBalanceCompression" : "DO_NOT_COMPRESS",
-          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-          "name" : "",
-          "partitioningAttribute" : "",
-          "prioritizers" : [ ],
-          "selectedRelationships" : [ "success" ],
-          "source" : {
-            "comments" : "",
-            "groupId" : "7bf94981-ec17-3b52-8ade-d8ff4d822759",
-            "id" : "b0128a5c-7f07-3f32-9e1a-89a54d2694a5",
-            "instanceIdentifier" : "55e1142f-0185-1000-b9a1-cb7321592edb",
-            "name" : "FetchFile",
             "type" : "PROCESSOR"
           },
           "zIndex" : 0
@@ -247,15 +181,15 @@
           "destination" : {
             "comments" : "",
             "groupId" : "7bf94981-ec17-3b52-8ade-d8ff4d822759",
-            "id" : "b0128a5c-7f07-3f32-9e1a-89a54d2694a5",
-            "instanceIdentifier" : "55e1142f-0185-1000-b9a1-cb7321592edb",
-            "name" : "FetchFile",
+            "id" : "2feee584-e5d5-3799-8f2e-f3174d1dcb7a",
+            "instanceIdentifier" : "01851005-a552-1e5f-20bf-c60b606987af",
+            "name" : "PutHDFS",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
           "groupIdentifier" : "7bf94981-ec17-3b52-8ade-d8ff4d822759",
-          "identifier" : "6ef17744-a07a-3f80-9b21-c654cde1a1ac",
-          "instanceIdentifier" : "56289b56-0185-1000-0f92-d1f7a21597b0",
+          "identifier" : "dc3735cb-7c40-3451-b411-3bf668a5dec4",
+          "instanceIdentifier" : "6202e2f5-0185-1000-f49f-ba54f64f9e2b",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
           "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
@@ -266,9 +200,42 @@
           "source" : {
             "comments" : "",
             "groupId" : "7bf94981-ec17-3b52-8ade-d8ff4d822759",
-            "id" : "9c2db399-ebd0-3fef-a3d6-d2034836e064",
-            "instanceIdentifier" : "55e071bb-0185-1000-2c0b-e163073064d6",
-            "name" : "ListFile",
+            "id" : "7566fc3a-de9f-3729-a632-dfc05f1a6c36",
+            "instanceIdentifier" : "01851020-addf-1b1e-48f2-a47f4453b958",
+            "name" : "UpdateAttribute",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "7bf94981-ec17-3b52-8ade-d8ff4d822759",
+            "id" : "c9746b8c-8808-327c-88d8-a5a1c6af9ae4",
+            "instanceIdentifier" : "01851006-a552-1e5f-bb38-0793c32e0e5e",
+            "name" : "PutHDFS",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "7bf94981-ec17-3b52-8ade-d8ff4d822759",
+          "identifier" : "cdaa1f5f-ba33-3ee6-aa82-5db6e79e8afe",
+          "instanceIdentifier" : "61fe9b30-0185-1000-8656-c964b03ddd63",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "7bf94981-ec17-3b52-8ade-d8ff4d822759",
+            "id" : "8de9611e-b3c6-383a-a535-f5c5f8342b36",
+            "instanceIdentifier" : "0185101e-addf-1b1e-42ba-eb753cfe4f77",
+            "name" : "UpdateAttribute",
             "type" : "PROCESSOR"
           },
           "zIndex" : 0
@@ -641,8 +608,8 @@
           "name" : "MergeContent",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 272.0,
-            "y" : -760.0
+            "x" : 280.0,
+            "y" : -704.0
           },
           "properties" : {
             "Keep Path" : "false",
@@ -809,8 +776,8 @@
           "name" : "PublishKafka_2_0",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : -160.0,
-            "y" : 344.0
+            "x" : -224.0,
+            "y" : 120.0
           },
           "properties" : {
             "compression.type" : "none",
@@ -1026,8 +993,8 @@
           "name" : "GetFile",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 232.0,
-            "y" : -976.0
+            "x" : 256.0,
+            "y" : -864.0
           },
           "properties" : {
             "Keep Source File" : "false",
@@ -1124,6 +1091,175 @@
           "type" : "org.apache.nifi.processors.standard.GetFile",
           "yieldDuration" : "1 sec"
         }, {
+          "autoTerminatedRelationships" : [ "success", "failure" ],
+          "backoffMechanism" : "PENALIZE_FLOWFILE",
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-hadoop-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.18.0"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "7bf94981-ec17-3b52-8ade-d8ff4d822759",
+          "identifier" : "c9746b8c-8808-327c-88d8-a5a1c6af9ae4",
+          "instanceIdentifier" : "01851006-a552-1e5f-bb38-0793c32e0e5e",
+          "maxBackoffPeriod" : "10 mins",
+          "name" : "PutHDFS",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : -736.0,
+            "y" : -320.0
+          },
+          "properties" : {
+            "Hadoop Configuration Resources" : "/home/momo/Bureau/hadoop-3.2.4/etc/hadoop/core-site.xml,/home/momo/Bureau/hadoop-3.2.4/etc/hadoop/hdfs-site.xml",
+            "Compression codec" : "NONE",
+            "Ignore Locality" : "false",
+            "writing-strategy" : "writeAndRename",
+            "Kerberos Relogin Period" : "4 hours",
+            "Directory" : "/data",
+            "Conflict Resolution Strategy" : "fail"
+          },
+          "propertyDescriptors" : {
+            "Permissions umask" : {
+              "displayName" : "Permissions umask",
+              "identifiesControllerService" : false,
+              "name" : "Permissions umask",
+              "sensitive" : false
+            },
+            "Hadoop Configuration Resources" : {
+              "displayName" : "Hadoop Configuration Resources",
+              "identifiesControllerService" : false,
+              "name" : "Hadoop Configuration Resources",
+              "resourceDefinition" : {
+                "cardinality" : "MULTIPLE",
+                "resourceTypes" : [ "FILE" ]
+              },
+              "sensitive" : false
+            },
+            "Remote Owner" : {
+              "displayName" : "Remote Owner",
+              "identifiesControllerService" : false,
+              "name" : "Remote Owner",
+              "sensitive" : false
+            },
+            "Additional Classpath Resources" : {
+              "displayName" : "Additional Classpath Resources",
+              "identifiesControllerService" : false,
+              "name" : "Additional Classpath Resources",
+              "resourceDefinition" : {
+                "cardinality" : "MULTIPLE",
+                "resourceTypes" : [ "DIRECTORY", "FILE" ]
+              },
+              "sensitive" : false
+            },
+            "Compression codec" : {
+              "displayName" : "Compression codec",
+              "identifiesControllerService" : false,
+              "name" : "Compression codec",
+              "sensitive" : false
+            },
+            "IO Buffer Size" : {
+              "displayName" : "IO Buffer Size",
+              "identifiesControllerService" : false,
+              "name" : "IO Buffer Size",
+              "sensitive" : false
+            },
+            "Remote Group" : {
+              "displayName" : "Remote Group",
+              "identifiesControllerService" : false,
+              "name" : "Remote Group",
+              "sensitive" : false
+            },
+            "Block Size" : {
+              "displayName" : "Block Size",
+              "identifiesControllerService" : false,
+              "name" : "Block Size",
+              "sensitive" : false
+            },
+            "kerberos-credentials-service" : {
+              "displayName" : "Kerberos Credentials Service",
+              "identifiesControllerService" : true,
+              "name" : "kerberos-credentials-service",
+              "sensitive" : false
+            },
+            "Kerberos Password" : {
+              "displayName" : "Kerberos Password",
+              "identifiesControllerService" : false,
+              "name" : "Kerberos Password",
+              "sensitive" : true
+            },
+            "Kerberos Keytab" : {
+              "displayName" : "Kerberos Keytab",
+              "identifiesControllerService" : false,
+              "name" : "Kerberos Keytab",
+              "resourceDefinition" : {
+                "cardinality" : "SINGLE",
+                "resourceTypes" : [ "FILE" ]
+              },
+              "sensitive" : false
+            },
+            "Ignore Locality" : {
+              "displayName" : "Ignore Locality",
+              "identifiesControllerService" : false,
+              "name" : "Ignore Locality",
+              "sensitive" : false
+            },
+            "Kerberos Principal" : {
+              "displayName" : "Kerberos Principal",
+              "identifiesControllerService" : false,
+              "name" : "Kerberos Principal",
+              "sensitive" : false
+            },
+            "Replication" : {
+              "displayName" : "Replication",
+              "identifiesControllerService" : false,
+              "name" : "Replication",
+              "sensitive" : false
+            },
+            "kerberos-user-service" : {
+              "displayName" : "Kerberos User Service",
+              "identifiesControllerService" : true,
+              "name" : "kerberos-user-service",
+              "sensitive" : false
+            },
+            "writing-strategy" : {
+              "displayName" : "Writing Strategy",
+              "identifiesControllerService" : false,
+              "name" : "writing-strategy",
+              "sensitive" : false
+            },
+            "Kerberos Relogin Period" : {
+              "displayName" : "Kerberos Relogin Period",
+              "identifiesControllerService" : false,
+              "name" : "Kerberos Relogin Period",
+              "sensitive" : false
+            },
+            "Directory" : {
+              "displayName" : "Directory",
+              "identifiesControllerService" : false,
+              "name" : "Directory",
+              "sensitive" : false
+            },
+            "Conflict Resolution Strategy" : {
+              "displayName" : "Conflict Resolution Strategy",
+              "identifiesControllerService" : false,
+              "name" : "Conflict Resolution Strategy",
+              "sensitive" : false
+            }
+          },
+          "retriedRelationships" : [ ],
+          "retryCount" : 10,
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.hadoop.PutHDFS",
+          "yieldDuration" : "1 sec"
+        }, {
           "autoTerminatedRelationships" : [ "original", "failure" ],
           "backoffMechanism" : "PENALIZE_FLOWFILE",
           "bulletinLevel" : "WARN",
@@ -1143,8 +1279,8 @@
           "name" : "MergeContent",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 568.0,
-            "y" : -80.0
+            "x" : 392.0,
+            "y" : -192.0
           },
           "properties" : {
             "Keep Path" : "false",
@@ -1292,220 +1428,6 @@
           "type" : "org.apache.nifi.processors.standard.MergeContent",
           "yieldDuration" : "1 sec"
         }, {
-          "autoTerminatedRelationships" : [ "original", "success", "failure" ],
-          "backoffMechanism" : "PENALIZE_FLOWFILE",
-          "bulletinLevel" : "WARN",
-          "bundle" : {
-            "artifact" : "nifi-poi-nar",
-            "group" : "org.apache.nifi",
-            "version" : "1.18.0"
-          },
-          "comments" : "",
-          "componentType" : "PROCESSOR",
-          "concurrentlySchedulableTaskCount" : 1,
-          "executionNode" : "ALL",
-          "groupIdentifier" : "7bf94981-ec17-3b52-8ade-d8ff4d822759",
-          "identifier" : "a79cd3d2-5da8-38d8-8501-dfe0798c6a68",
-          "instanceIdentifier" : "4b1eaddf-0185-1000-1aa9-ead1d5ebfc85",
-          "maxBackoffPeriod" : "10 mins",
-          "name" : "ConvertExcelToCSVProcessor",
-          "penaltyDuration" : "30 sec",
-          "position" : {
-            "x" : -464.0,
-            "y" : -320.0
-          },
-          "properties" : {
-            "excel-extract-first-row" : "0",
-            "CSV Format" : "custom",
-            "Quote Character" : "\"",
-            "Include Header Line" : "true",
-            "Value Separator" : ",",
-            "Record Separator" : "\\n",
-            "Escape Character" : "\\",
-            "excel-format-values" : "false",
-            "Trim Fields" : "true",
-            "Quote Mode" : "NONE",
-            "Include Trailing Delimiter" : "false"
-          },
-          "propertyDescriptors" : {
-            "excel-extract-first-row" : {
-              "displayName" : "Number of Rows to Skip",
-              "identifiesControllerService" : false,
-              "name" : "excel-extract-first-row",
-              "sensitive" : false
-            },
-            "excel-extract-column-to-skip" : {
-              "displayName" : "Columns To Skip",
-              "identifiesControllerService" : false,
-              "name" : "excel-extract-column-to-skip",
-              "sensitive" : false
-            },
-            "CSV Format" : {
-              "displayName" : "CSV Format",
-              "identifiesControllerService" : false,
-              "name" : "CSV Format",
-              "sensitive" : false
-            },
-            "Quote Character" : {
-              "displayName" : "Quote Character",
-              "identifiesControllerService" : false,
-              "name" : "Quote Character",
-              "sensitive" : false
-            },
-            "Include Header Line" : {
-              "displayName" : "Include Header Line",
-              "identifiesControllerService" : false,
-              "name" : "Include Header Line",
-              "sensitive" : false
-            },
-            "Value Separator" : {
-              "displayName" : "Value Separator",
-              "identifiesControllerService" : false,
-              "name" : "Value Separator",
-              "sensitive" : false
-            },
-            "Record Separator" : {
-              "displayName" : "Record Separator",
-              "identifiesControllerService" : false,
-              "name" : "Record Separator",
-              "sensitive" : false
-            },
-            "Escape Character" : {
-              "displayName" : "Escape Character",
-              "identifiesControllerService" : false,
-              "name" : "Escape Character",
-              "sensitive" : false
-            },
-            "extract-sheets" : {
-              "displayName" : "Sheets to Extract",
-              "identifiesControllerService" : false,
-              "name" : "extract-sheets",
-              "sensitive" : false
-            },
-            "excel-format-values" : {
-              "displayName" : "Format Cell Values",
-              "identifiesControllerService" : false,
-              "name" : "excel-format-values",
-              "sensitive" : false
-            },
-            "Null String" : {
-              "displayName" : "Null String",
-              "identifiesControllerService" : false,
-              "name" : "Null String",
-              "sensitive" : false
-            },
-            "Trim Fields" : {
-              "displayName" : "Trim Fields",
-              "identifiesControllerService" : false,
-              "name" : "Trim Fields",
-              "sensitive" : false
-            },
-            "Comment Marker" : {
-              "displayName" : "Comment Marker",
-              "identifiesControllerService" : false,
-              "name" : "Comment Marker",
-              "sensitive" : false
-            },
-            "Quote Mode" : {
-              "displayName" : "Quote Mode",
-              "identifiesControllerService" : false,
-              "name" : "Quote Mode",
-              "sensitive" : false
-            },
-            "Include Trailing Delimiter" : {
-              "displayName" : "Include Trailing Delimiter",
-              "identifiesControllerService" : false,
-              "name" : "Include Trailing Delimiter",
-              "sensitive" : false
-            }
-          },
-          "retriedRelationships" : [ ],
-          "retryCount" : 10,
-          "runDurationMillis" : 0,
-          "scheduledState" : "ENABLED",
-          "schedulingPeriod" : "0 sec",
-          "schedulingStrategy" : "TIMER_DRIVEN",
-          "style" : { },
-          "type" : "org.apache.nifi.processors.poi.ConvertExcelToCSVProcessor",
-          "yieldDuration" : "1 sec"
-        }, {
-          "autoTerminatedRelationships" : [ "failure", "permission.denied", "not.found" ],
-          "backoffMechanism" : "PENALIZE_FLOWFILE",
-          "bulletinLevel" : "WARN",
-          "bundle" : {
-            "artifact" : "nifi-standard-nar",
-            "group" : "org.apache.nifi",
-            "version" : "1.18.0"
-          },
-          "comments" : "",
-          "componentType" : "PROCESSOR",
-          "concurrentlySchedulableTaskCount" : 1,
-          "executionNode" : "ALL",
-          "groupIdentifier" : "7bf94981-ec17-3b52-8ade-d8ff4d822759",
-          "identifier" : "b0128a5c-7f07-3f32-9e1a-89a54d2694a5",
-          "instanceIdentifier" : "55e1142f-0185-1000-b9a1-cb7321592edb",
-          "maxBackoffPeriod" : "10 mins",
-          "name" : "FetchFile",
-          "penaltyDuration" : "30 sec",
-          "position" : {
-            "x" : -488.0,
-            "y" : -584.0
-          },
-          "properties" : {
-            "Move Conflict Strategy" : "Rename",
-            "Log level when file not found" : "ERROR",
-            "Log level when permission denied" : "ERROR",
-            "File to Fetch" : "${absolute.path}/${filename}",
-            "Completion Strategy" : "None"
-          },
-          "propertyDescriptors" : {
-            "Move Conflict Strategy" : {
-              "displayName" : "Move Conflict Strategy",
-              "identifiesControllerService" : false,
-              "name" : "Move Conflict Strategy",
-              "sensitive" : false
-            },
-            "Log level when file not found" : {
-              "displayName" : "Log level when file not found",
-              "identifiesControllerService" : false,
-              "name" : "Log level when file not found",
-              "sensitive" : false
-            },
-            "Move Destination Directory" : {
-              "displayName" : "Move Destination Directory",
-              "identifiesControllerService" : false,
-              "name" : "Move Destination Directory",
-              "sensitive" : false
-            },
-            "Log level when permission denied" : {
-              "displayName" : "Log level when permission denied",
-              "identifiesControllerService" : false,
-              "name" : "Log level when permission denied",
-              "sensitive" : false
-            },
-            "File to Fetch" : {
-              "displayName" : "File to Fetch",
-              "identifiesControllerService" : false,
-              "name" : "File to Fetch",
-              "sensitive" : false
-            },
-            "Completion Strategy" : {
-              "displayName" : "Completion Strategy",
-              "identifiesControllerService" : false,
-              "name" : "Completion Strategy",
-              "sensitive" : false
-            }
-          },
-          "retriedRelationships" : [ ],
-          "retryCount" : 10,
-          "runDurationMillis" : 0,
-          "scheduledState" : "ENABLED",
-          "schedulingPeriod" : "0 sec",
-          "schedulingStrategy" : "TIMER_DRIVEN",
-          "style" : { },
-          "type" : "org.apache.nifi.processors.standard.FetchFile",
-          "yieldDuration" : "1 sec"
-        }, {
           "autoTerminatedRelationships" : [ ],
           "backoffMechanism" : "PENALIZE_FLOWFILE",
           "bulletinLevel" : "WARN",
@@ -1525,8 +1447,8 @@
           "name" : "UpdateAttribute",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : -632.0,
-            "y" : 320.0
+            "x" : -352.0,
+            "y" : -616.0
           },
           "properties" : {
             "filename" : "datavalid.csv",
@@ -1594,8 +1516,8 @@
           "name" : "UpdateAttribute",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 776.0,
-            "y" : -568.0
+            "x" : 712.0,
+            "y" : -544.0
           },
           "properties" : {
             "filename" : "${filename:preprend(${now():format(\"yyyyMMdd_HH-mm-ss\")})}",
@@ -1663,8 +1585,8 @@
           "name" : "PutFile",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 1136.0,
-            "y" : 296.0
+            "x" : 792.0,
+            "y" : -24.0
           },
           "properties" : {
             "Create Missing Directories" : "true",
@@ -1750,8 +1672,8 @@
           "name" : "PutFile",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : -1040.0,
-            "y" : 544.0
+            "x" : -1104.0,
+            "y" : -320.0
           },
           "properties" : {
             "Create Missing Directories" : "true",
@@ -1822,7 +1744,7 @@
           "backoffMechanism" : "PENALIZE_FLOWFILE",
           "bulletinLevel" : "WARN",
           "bundle" : {
-            "artifact" : "nifi-standard-nar",
+            "artifact" : "nifi-hadoop-nar",
             "group" : "org.apache.nifi",
             "version" : "1.18.0"
           },
@@ -1831,65 +1753,149 @@
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
           "groupIdentifier" : "7bf94981-ec17-3b52-8ade-d8ff4d822759",
-          "identifier" : "211ca735-3082-3102-95ec-b4372307ab63",
-          "instanceIdentifier" : "0185100f-c8f5-15df-fc97-0b21a40b4ff9",
+          "identifier" : "2feee584-e5d5-3799-8f2e-f3174d1dcb7a",
+          "instanceIdentifier" : "01851005-a552-1e5f-20bf-c60b606987af",
           "maxBackoffPeriod" : "10 mins",
-          "name" : "ReplaceText",
+          "name" : "PutHDFS",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : -888.0,
-            "y" : -480.0
+            "x" : -360.0,
+            "y" : -320.0
           },
           "properties" : {
-            "Regular Expression" : "(?s)(^.*$)",
-            "Replacement Value" : "$1",
-            "Evaluation Mode" : "Line-by-Line",
-            "Line-by-Line Evaluation Mode" : "All",
-            "Character Set" : "UTF-8",
-            "Maximum Buffer Size" : "1 MB",
-            "Replacement Strategy" : "Regex Replace"
+            "Hadoop Configuration Resources" : "/home/momo/Bureau/hadoop-3.2.4/etc/hadoop/core-site.xml,/home/momo/Bureau/hadoop-3.2.4/etc/hadoop/hdfs-site.xml",
+            "Compression codec" : "NONE",
+            "Ignore Locality" : "false",
+            "writing-strategy" : "writeAndRename",
+            "Kerberos Relogin Period" : "4 hours",
+            "Directory" : "/data",
+            "Conflict Resolution Strategy" : "fail"
           },
           "propertyDescriptors" : {
-            "Regular Expression" : {
-              "displayName" : "Search Value",
+            "Permissions umask" : {
+              "displayName" : "Permissions umask",
               "identifiesControllerService" : false,
-              "name" : "Regular Expression",
+              "name" : "Permissions umask",
               "sensitive" : false
             },
-            "Replacement Value" : {
-              "displayName" : "Replacement Value",
+            "Hadoop Configuration Resources" : {
+              "displayName" : "Hadoop Configuration Resources",
               "identifiesControllerService" : false,
-              "name" : "Replacement Value",
+              "name" : "Hadoop Configuration Resources",
+              "resourceDefinition" : {
+                "cardinality" : "MULTIPLE",
+                "resourceTypes" : [ "FILE" ]
+              },
               "sensitive" : false
             },
-            "Evaluation Mode" : {
-              "displayName" : "Evaluation Mode",
+            "Remote Owner" : {
+              "displayName" : "Remote Owner",
               "identifiesControllerService" : false,
-              "name" : "Evaluation Mode",
+              "name" : "Remote Owner",
               "sensitive" : false
             },
-            "Line-by-Line Evaluation Mode" : {
-              "displayName" : "Line-by-Line Evaluation Mode",
+            "Additional Classpath Resources" : {
+              "displayName" : "Additional Classpath Resources",
               "identifiesControllerService" : false,
-              "name" : "Line-by-Line Evaluation Mode",
+              "name" : "Additional Classpath Resources",
+              "resourceDefinition" : {
+                "cardinality" : "MULTIPLE",
+                "resourceTypes" : [ "DIRECTORY", "FILE" ]
+              },
               "sensitive" : false
             },
-            "Character Set" : {
-              "displayName" : "Character Set",
+            "Compression codec" : {
+              "displayName" : "Compression codec",
               "identifiesControllerService" : false,
-              "name" : "Character Set",
+              "name" : "Compression codec",
               "sensitive" : false
             },
-            "Maximum Buffer Size" : {
-              "displayName" : "Maximum Buffer Size",
+            "IO Buffer Size" : {
+              "displayName" : "IO Buffer Size",
               "identifiesControllerService" : false,
-              "name" : "Maximum Buffer Size",
+              "name" : "IO Buffer Size",
               "sensitive" : false
             },
-            "Replacement Strategy" : {
-              "displayName" : "Replacement Strategy",
+            "Remote Group" : {
+              "displayName" : "Remote Group",
               "identifiesControllerService" : false,
-              "name" : "Replacement Strategy",
+              "name" : "Remote Group",
+              "sensitive" : false
+            },
+            "Block Size" : {
+              "displayName" : "Block Size",
+              "identifiesControllerService" : false,
+              "name" : "Block Size",
+              "sensitive" : false
+            },
+            "kerberos-credentials-service" : {
+              "displayName" : "Kerberos Credentials Service",
+              "identifiesControllerService" : true,
+              "name" : "kerberos-credentials-service",
+              "sensitive" : false
+            },
+            "Kerberos Password" : {
+              "displayName" : "Kerberos Password",
+              "identifiesControllerService" : false,
+              "name" : "Kerberos Password",
+              "sensitive" : true
+            },
+            "Kerberos Keytab" : {
+              "displayName" : "Kerberos Keytab",
+              "identifiesControllerService" : false,
+              "name" : "Kerberos Keytab",
+              "resourceDefinition" : {
+                "cardinality" : "SINGLE",
+                "resourceTypes" : [ "FILE" ]
+              },
+              "sensitive" : false
+            },
+            "Ignore Locality" : {
+              "displayName" : "Ignore Locality",
+              "identifiesControllerService" : false,
+              "name" : "Ignore Locality",
+              "sensitive" : false
+            },
+            "Kerberos Principal" : {
+              "displayName" : "Kerberos Principal",
+              "identifiesControllerService" : false,
+              "name" : "Kerberos Principal",
+              "sensitive" : false
+            },
+            "Replication" : {
+              "displayName" : "Replication",
+              "identifiesControllerService" : false,
+              "name" : "Replication",
+              "sensitive" : false
+            },
+            "kerberos-user-service" : {
+              "displayName" : "Kerberos User Service",
+              "identifiesControllerService" : true,
+              "name" : "kerberos-user-service",
+              "sensitive" : false
+            },
+            "writing-strategy" : {
+              "displayName" : "Writing Strategy",
+              "identifiesControllerService" : false,
+              "name" : "writing-strategy",
+              "sensitive" : false
+            },
+            "Kerberos Relogin Period" : {
+              "displayName" : "Kerberos Relogin Period",
+              "identifiesControllerService" : false,
+              "name" : "Kerberos Relogin Period",
+              "sensitive" : false
+            },
+            "Directory" : {
+              "displayName" : "Directory",
+              "identifiesControllerService" : false,
+              "name" : "Directory",
+              "sensitive" : false
+            },
+            "Conflict Resolution Strategy" : {
+              "displayName" : "Conflict Resolution Strategy",
+              "identifiesControllerService" : false,
+              "name" : "Conflict Resolution Strategy",
               "sensitive" : false
             }
           },
@@ -1900,7 +1906,7 @@
           "schedulingPeriod" : "0 sec",
           "schedulingStrategy" : "TIMER_DRIVEN",
           "style" : { },
-          "type" : "org.apache.nifi.processors.standard.ReplaceText",
+          "type" : "org.apache.nifi.processors.hadoop.PutHDFS",
           "yieldDuration" : "1 sec"
         }, {
           "autoTerminatedRelationships" : [ ],
@@ -1922,8 +1928,8 @@
           "name" : "ConsumeKafka_2_0",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : -1040.0,
-            "y" : 72.0
+            "x" : -784.0,
+            "y" : -808.0
           },
           "properties" : {
             "max.poll.records" : "10000",
@@ -2121,8 +2127,8 @@
           "name" : "ConsumeKafka_2_0",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : -640.0,
-            "y" : 72.0
+            "x" : -368.0,
+            "y" : -808.0
           },
           "properties" : {
             "max.poll.records" : "10000",
@@ -2320,8 +2326,8 @@
           "name" : "SplitText",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 584.0,
-            "y" : -320.0
+            "x" : 376.0,
+            "y" : -360.0
           },
           "properties" : {
             "Remove Trailing Newlines" : "false",
@@ -2389,8 +2395,8 @@
           "name" : "PutFile",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 1288.0,
-            "y" : -552.0
+            "x" : 1120.0,
+            "y" : -536.0
           },
           "properties" : {
             "Create Missing Directories" : "true",
@@ -2476,8 +2482,8 @@
           "name" : "ConvertExcelToCSVProcessor",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 280.0,
-            "y" : -544.0
+            "x" : 304.0,
+            "y" : -520.0
           },
           "properties" : {
             "excel-extract-first-row" : "0",
@@ -2613,8 +2619,8 @@
           "name" : "UpdateAttribute",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : -1056.0,
-            "y" : 312.0
+            "x" : -808.0,
+            "y" : -624.0
           },
           "properties" : {
             "filename" : "datarejected.csv",
@@ -2682,8 +2688,8 @@
           "name" : "UpdateAttribute",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 568.0,
-            "y" : 128.0
+            "x" : 392.0,
+            "y" : -24.0
           },
           "properties" : {
             "filename" : "datav1.csv",
@@ -2745,199 +2751,14 @@
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
           "groupIdentifier" : "7bf94981-ec17-3b52-8ade-d8ff4d822759",
-          "identifier" : "9c2db399-ebd0-3fef-a3d6-d2034836e064",
-          "instanceIdentifier" : "55e071bb-0185-1000-2c0b-e163073064d6",
-          "maxBackoffPeriod" : "10 mins",
-          "name" : "ListFile",
-          "penaltyDuration" : "30 sec",
-          "position" : {
-            "x" : -504.0,
-            "y" : -832.0
-          },
-          "properties" : {
-            "Minimum File Age" : "0 sec",
-            "et-initial-listing-target" : "all",
-            "max-listing-time" : "3 mins",
-            "et-time-window" : "3 hours",
-            "et-node-identifier" : "${hostname()}",
-            "Recurse Subdirectories" : "true",
-            "File Filter" : "[^\\.].*",
-            "Include File Attributes" : "true",
-            "Input Directory Location" : "Local",
-            "listing-strategy" : "timestamps",
-            "Input Directory" : "/home/momo/Bureau/nifi_file",
-            "target-system-timestamp-precision" : "auto-detect",
-            "track-performance" : "false",
-            "max-performance-metrics" : "100000",
-            "Minimum File Size" : "0 B",
-            "Ignore Hidden Files" : "true",
-            "max-operation-time" : "10 secs"
-          },
-          "propertyDescriptors" : {
-            "Minimum File Age" : {
-              "displayName" : "Minimum File Age",
-              "identifiesControllerService" : false,
-              "name" : "Minimum File Age",
-              "sensitive" : false
-            },
-            "et-initial-listing-target" : {
-              "displayName" : "Entity Tracking Initial Listing Target",
-              "identifiesControllerService" : false,
-              "name" : "et-initial-listing-target",
-              "sensitive" : false
-            },
-            "Maximum File Age" : {
-              "displayName" : "Maximum File Age",
-              "identifiesControllerService" : false,
-              "name" : "Maximum File Age",
-              "sensitive" : false
-            },
-            "max-listing-time" : {
-              "displayName" : "Max Directory Listing Time",
-              "identifiesControllerService" : false,
-              "name" : "max-listing-time",
-              "sensitive" : false
-            },
-            "record-writer" : {
-              "displayName" : "Record Writer",
-              "identifiesControllerService" : true,
-              "name" : "record-writer",
-              "sensitive" : false
-            },
-            "Maximum File Size" : {
-              "displayName" : "Maximum File Size",
-              "identifiesControllerService" : false,
-              "name" : "Maximum File Size",
-              "sensitive" : false
-            },
-            "et-time-window" : {
-              "displayName" : "Entity Tracking Time Window",
-              "identifiesControllerService" : false,
-              "name" : "et-time-window",
-              "sensitive" : false
-            },
-            "et-node-identifier" : {
-              "displayName" : "Entity Tracking Node Identifier",
-              "identifiesControllerService" : false,
-              "name" : "et-node-identifier",
-              "sensitive" : false
-            },
-            "Recurse Subdirectories" : {
-              "displayName" : "Recurse Subdirectories",
-              "identifiesControllerService" : false,
-              "name" : "Recurse Subdirectories",
-              "sensitive" : false
-            },
-            "File Filter" : {
-              "displayName" : "File Filter",
-              "identifiesControllerService" : false,
-              "name" : "File Filter",
-              "sensitive" : false
-            },
-            "Path Filter" : {
-              "displayName" : "Path Filter",
-              "identifiesControllerService" : false,
-              "name" : "Path Filter",
-              "sensitive" : false
-            },
-            "Include File Attributes" : {
-              "displayName" : "Include File Attributes",
-              "identifiesControllerService" : false,
-              "name" : "Include File Attributes",
-              "sensitive" : false
-            },
-            "Input Directory Location" : {
-              "displayName" : "Input Directory Location",
-              "identifiesControllerService" : false,
-              "name" : "Input Directory Location",
-              "sensitive" : false
-            },
-            "listing-strategy" : {
-              "displayName" : "Listing Strategy",
-              "identifiesControllerService" : false,
-              "name" : "listing-strategy",
-              "sensitive" : false
-            },
-            "Input Directory" : {
-              "displayName" : "Input Directory",
-              "identifiesControllerService" : false,
-              "name" : "Input Directory",
-              "sensitive" : false
-            },
-            "target-system-timestamp-precision" : {
-              "displayName" : "Target System Timestamp Precision",
-              "identifiesControllerService" : false,
-              "name" : "target-system-timestamp-precision",
-              "sensitive" : false
-            },
-            "track-performance" : {
-              "displayName" : "Track Performance",
-              "identifiesControllerService" : false,
-              "name" : "track-performance",
-              "sensitive" : false
-            },
-            "max-performance-metrics" : {
-              "displayName" : "Maximum Number of Files to Track",
-              "identifiesControllerService" : false,
-              "name" : "max-performance-metrics",
-              "sensitive" : false
-            },
-            "Minimum File Size" : {
-              "displayName" : "Minimum File Size",
-              "identifiesControllerService" : false,
-              "name" : "Minimum File Size",
-              "sensitive" : false
-            },
-            "Ignore Hidden Files" : {
-              "displayName" : "Ignore Hidden Files",
-              "identifiesControllerService" : false,
-              "name" : "Ignore Hidden Files",
-              "sensitive" : false
-            },
-            "et-state-cache" : {
-              "displayName" : "Entity Tracking State Cache",
-              "identifiesControllerService" : true,
-              "name" : "et-state-cache",
-              "sensitive" : false
-            },
-            "max-operation-time" : {
-              "displayName" : "Max Disk Operation Time",
-              "identifiesControllerService" : false,
-              "name" : "max-operation-time",
-              "sensitive" : false
-            }
-          },
-          "retriedRelationships" : [ ],
-          "retryCount" : 10,
-          "runDurationMillis" : 0,
-          "scheduledState" : "ENABLED",
-          "schedulingPeriod" : "0 sec",
-          "schedulingStrategy" : "TIMER_DRIVEN",
-          "style" : { },
-          "type" : "org.apache.nifi.processors.standard.ListFile",
-          "yieldDuration" : "1 sec"
-        }, {
-          "autoTerminatedRelationships" : [ ],
-          "backoffMechanism" : "PENALIZE_FLOWFILE",
-          "bulletinLevel" : "WARN",
-          "bundle" : {
-            "artifact" : "nifi-standard-nar",
-            "group" : "org.apache.nifi",
-            "version" : "1.18.0"
-          },
-          "comments" : "",
-          "componentType" : "PROCESSOR",
-          "concurrentlySchedulableTaskCount" : 1,
-          "executionNode" : "ALL",
-          "groupIdentifier" : "7bf94981-ec17-3b52-8ade-d8ff4d822759",
           "identifier" : "9468d505-f0e5-3385-819d-74a9ba55a544",
           "instanceIdentifier" : "447e4c9c-0185-1000-3fd2-aab01614ed4c",
           "maxBackoffPeriod" : "10 mins",
           "name" : "ValidateCsv",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 472.0,
-            "y" : 344.0
+            "x" : 408.0,
+            "y" : 136.0
           },
           "properties" : {
             "validate-csv-schema" : "ParseChar,ParseChar,ParseInt,ParseChar,ParseChar,ParseInt,ParseInt,ParseDouble,ParseInt,ParseDouble,ParseInt,ParseDouble,ParseDouble,ParseInt,ParseDouble,ParseDouble,ParseInt,ParseChar,ParseChar,ParseChar,ParseInt",
@@ -3014,8 +2835,8 @@
           "name" : "PutFile",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : -592.0,
-            "y" : 544.0
+            "x" : 8.0,
+            "y" : -320.0
           },
           "properties" : {
             "Create Missing Directories" : "true",
@@ -3101,8 +2922,8 @@
           "name" : "PublishKafka_2_0",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : -168.0,
-            "y" : 120.0
+            "x" : -224.0,
+            "y" : -80.0
           },
           "properties" : {
             "compression.type" : "none",
