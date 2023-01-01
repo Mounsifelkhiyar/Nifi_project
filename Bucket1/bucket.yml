@@ -5,6 +5,8 @@ flows:
     author: anonymous, created: 1672583466197, flowName: flow2, flowDesc: ''}
   83f443e6-d8a6-445f-a373-10b76f8dec64: {ver: 2, file: flow1.snapshot, comments: '',
     author: anonymous, created: 1672388382977, flowName: flow1, flowDesc: ''}
+  df8653fb-a7e8-484c-a959-a693b3228d3b: {ver: 1, file: flow_final2.snapshot, comments: '',
+    author: anonymous, created: 1672583617544, flowName: flow_final2, flowDesc: ''}
   166d4e7d-e221-4e96-a31f-668e5410d5f3: {ver: 1, file: flow1_1.snapshot, comments: '',
     author: anonymous, created: 1672583481511, flowName: flow1_1, flowDesc: ''}
 layoutVer: 1
